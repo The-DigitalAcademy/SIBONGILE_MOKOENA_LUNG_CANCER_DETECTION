@@ -2,7 +2,7 @@
 
 LUNG CANCER DETECTION
 
-Table of Contents
+# Table of Contents
 
 General Info
 
@@ -22,7 +22,7 @@ General Info
 
 The objective of lung cancer detection is to develop a system or model that can accurately identify the presence of lung cancer or its likelihood based on certain input data or medical information. The detection system aims to assist medical professionals in diagnosing lung cancer at an early stage, which can significantly improve patient outcomes and survival rates.
 
-Technologies used
+# Technologies used
 The project leverages the following technologies and libraries:
 
 Python
@@ -35,7 +35,7 @@ NumPy
 
 Jupyter Notebook (for data exploration and model development)
 
-Features
+# Features
 The dataset includes the following features:
 
 Setup
@@ -51,5 +51,5 @@ Usage
 Room for improvement
 Feature selection: Identify and utilize the most relevant features for better model performance. Model selection: Experiment with various regression models to find the most suitable one for this specific challenge.
 
-Acknowledgement
+# Acknowledgement
 SIBONGILE MOKOENA
