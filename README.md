@@ -1,6 +1,6 @@
 # SIBONGILE_MOKOENA_LUNG_CANCER_DETECTION
 
-Gender_Based_Violence
+LUNG CANCER DETECTION
 Table of Contents
 
 General Info
