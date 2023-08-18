@@ -5,16 +5,8 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
 # Function to load the models
-def load_models():
-    forest_model_path = '/Users/da_m1_18/Downloads/LUNGS/forest_model.pkl'
-    logis_model_path = '/Users/da_m1_18/Downloads/LUNGS/logis_model.pkl'
-    gumodel_path = '/Users/da_m1_18/Downloads/LUNGS/gumodel.pkl'
-    dtree_model_path = '/Users/da_m1_18/Downloads/LUNGS/dtree.pkl'
-    
-    forest_model = joblib.load(forest_model_path)    
-    logis_model = joblib.load(logis_model_path)
-    gumodel = joblib.load(gumodel_path)
-    dtree_model = joblib.load(dtree_model_path)
+forest_model = joblib.load('forest_model.pkl')    
+
     
     return logis_model, forest_model, gumodel, dtree_model
 
@@ -63,7 +55,7 @@ def main():
             "CHEST PAIN": [feature4],
             "CHRONIC DISEASE":[feature5]
         })
-        prediction = model.predict(input_features)
+        prediction = forest_model.predict(input_features)
 
         # Display the prediction result
         st.header('Prediction')
