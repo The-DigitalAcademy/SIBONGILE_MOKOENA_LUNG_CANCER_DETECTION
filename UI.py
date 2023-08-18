@@ -15,7 +15,7 @@ def main():
     st.write("Enter the following features to get predictions:")
 
     # Load the models
-    logis_model, forest_model, gumodel, dtree_model = load_models()
+   # logis_model, forest_model, gumodel, dtree_model = load_models()
 
     # User input for features
     st.header('Feature Input')
