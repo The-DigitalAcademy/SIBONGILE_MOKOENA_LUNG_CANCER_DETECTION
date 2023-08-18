@@ -7,8 +7,7 @@ from sklearn.tree import DecisionTreeClassifier
 # Function to load the models
 forest_model = joblib.load('forest_model.pkl')    
 
-    
-    return logis_model, forest_model, gumodel, dtree_model
+#return logis_model, forest_model, gumodel, dtree_model
 
 def main():
     # Title of the web app
